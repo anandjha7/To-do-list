@@ -118,7 +118,7 @@ class App extends React.Component {
                         name="newTask"
                         value={this.state.newTask}
                         onChange={this.handleInputChange}
-                        placeholder="enter your roll number"
+                        placeholder="enter new task"
                     />
                     
                     <select name="priority" value={this.state.priority} onChange={this.handleInputChange}>
@@ -132,7 +132,7 @@ class App extends React.Component {
                         name="category"
                         value={this.state.category}
                         onChange={this.handleInputChange}
-                        placeholder="enter your name here"
+                        placeholder="enter category"
                     />
                     <input
                         type="date"
